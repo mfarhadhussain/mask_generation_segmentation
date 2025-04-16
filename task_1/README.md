@@ -36,24 +36,23 @@ Follow these steps to set up your environment, download the COCO dataset, and ru
     ```
 
 ### 3. Run the Segmentation Mask Generation Script: 
-For the **training set**:
 
+**For the training set**:
     ```bash
     python3 generate_masks.py \
-  --images_dir coco_dataset/train2017 \
-  --annotations_file coco_dataset/annotations/instances_train2017.json \
-  --output_dir coco_dataset/masks_train \
-  --max_images 5000
+    --images_dir coco_dataset/train2017 \
+    --annotations_file coco_dataset/annotations/instances_train2017.json \
+    --output_dir coco_dataset/masks_train \
+    --max_images 5000
     ```
 
-For the **validation set**:
-
+**For the validation set**:
     ```bash
     python3 generate_masks.py \
-  --images_dir coco_dataset/val2017 \
-  --annotations_file coco_dataset/annotations/instances_val2017.json \
-  --output_dir coco_dataset/masks_val \
-  --max_images 1000
+    --images_dir coco_dataset/val2017 \
+    --annotations_file coco_dataset/annotations/instances_val2017.json \
+    --output_dir coco_dataset/masks_val \
+    --max_images 1000
     ```
 
 ## Edge Cases Handling:
