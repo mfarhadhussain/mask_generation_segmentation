@@ -25,7 +25,7 @@ Follow these steps to set up your environment, download the COCO dataset, and ru
     pip install -r requirements.txt
     ```
 
-### 2. Download the COCO Dataset
+### 2. Download the COCO Dataset:
     ```bash
     mkdir -p coco_dataset && cd coco_dataset
     wget http://images.cocodataset.org/zips/train2017.zip
@@ -35,9 +35,9 @@ Follow these steps to set up your environment, download the COCO dataset, and ru
     cd ..
     ```
 
-### 3. Run the Segmentation Mask Generation Script 
-
+### 3. Run the Segmentation Mask Generation Script: 
 For the **training set**:
+
     ```bash
     python3 generate_masks.py \
   --images_dir coco_dataset/train2017 \
@@ -47,6 +47,7 @@ For the **training set**:
     ```
 
 For the **validation set**:
+
     ```bash
     python3 generate_masks.py \
   --images_dir coco_dataset/val2017 \
