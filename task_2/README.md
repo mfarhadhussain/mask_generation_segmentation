@@ -15,9 +15,9 @@ This repository contains a semantic segmentation project in PyTorch, model is tr
     ```
 2. **Create and activate a virtual environment** (recommended):
     ```bash
-    python -m venv vjt
-    source vjt/bin/activate  # For Linux/macOS
-    # or "vjt\Scripts\activate" on Windows
+    python -m venv .mgs
+    source .mgs/bin/activate  # For Linux/macOS
+    # or ".mgs\Scripts\activate" on Windows
     ```
 3. **Install dependencies**:
     ```bash
