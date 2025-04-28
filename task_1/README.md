@@ -9,7 +9,7 @@ Follow these steps to set up your environment, download the COCO dataset, and ru
 ### 1. Environment setup
 1. **Clone this repository**:
     ```bash
-    git clone https://github.com/YourUsername/YourRepo.git
+    git clone https://github.com/mfarhadhussain/mask_generation_segmentation.git
     ```
 
 2. **Create and activate a virtual environment** (recommended):
