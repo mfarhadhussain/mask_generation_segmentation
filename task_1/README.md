@@ -14,7 +14,7 @@ Follow these steps to set up your environment, download the COCO dataset, and ru
 
 2. **Create and activate a virtual environment** (recommended):
     ```bash
-    cd YourRepo
+    cd mask_generation_segmentation
     python3 -m venv .mgs
     source .mgs/bin/activate  # For Linux/macOS
     # or ".mgs\Scripts\activate" on Windows
